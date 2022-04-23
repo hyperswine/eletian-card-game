@@ -1,0 +1,29 @@
+# FORMAT:
+#
+# level
+# attack
+# defense
+
+# SUB EFFECT:
+#
+# heal
+# destroy
+# summon
+# draw
+# increase att/def
+# move again
+# att again
+# effect again
+
+# Destroy one enemy <= level 7. In the card, just highlight enemy and when hover over it, show the tooltip "up to level 7"
+# Maybe later restrict the type of enemy, cant do it to deity's for example
+# or level 8+
+
+level: 3
+
+effect:
+  on_use:
+    destroy:
+      target: "enemy unit"
+      number: 1
+      max_level: 7

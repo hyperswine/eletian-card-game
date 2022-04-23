@@ -1,0 +1,34 @@
+# FORMAT:
+#
+# level
+# attack
+# defense
+
+# SUB EFFECT:
+#
+# heal
+# destroy
+# summon
+# draw
+# increase att/def
+# move again
+# att again
+# effect again 
+
+# An inventor and cool dude
+# Powers everything nicely
+# Great support and one off kinda thing
+# Not quite as good as god, but not bad for a level 8 card
+
+level: 8
+
+att: 1
+
+def: 1
+
+effect:
+  on_summon:
+    boost:
+      target: "ally units"
+      att: "100%"
+      def: "100%"

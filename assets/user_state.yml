@@ -1,0 +1,30 @@
+# FORMAT:
+#
+# deck
+#   - card_1_name
+#   - card_2_name
+
+# NOTES: duplicate cards are allowed and are simpyl just repeated in the deck at whatever position the user sorted it
+
+deck:
+  - gabriel
+  - michael
+  - michael
+
+summoner_level: 1
+
+# usually + 2-10 after each battle depending on style points, time and win/lose
+summoner_exp: 0
+
+# rank 0 means unranked. Need summoner level 10 to play ranked, when you will start at rank 1 (stone tier)
+rank: 0
+
+# RANKS:
+#
+# stone
+# iron (shiny)
+# gold (nice and shiny)
+# diamond (sheen)
+# photon (brighter sheen)
+# antimatter (even brighter sheen)
+# antimatter+ (brightest sheen and cool dynamic effects)
