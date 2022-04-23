@@ -1,0 +1,22 @@
+# FORMAT:
+#
+# level
+# attack
+# defense
+
+level: 10
+
+att: 10
+
+def: 10
+
+effect:
+  on_summon:
+    destroy:
+      target: "enemy unit"
+      number: "all"
+  death:
+    revive:
+      # cannot revive itself since that would be after_death
+      target: "ally unit"
+      number: 5

@@ -1,0 +1,28 @@
+# FORMAT:
+#
+# level
+# attack
+# defense
+
+# SUB EFFECT:
+#
+# heal
+# destroy
+# summon
+# draw
+# increase att/def
+# move again
+# att again
+# effect again 
+
+level: 1
+
+att: 1
+
+def: 1
+
+effect:
+  on_summon:
+  death:
+  once:
+  every_turn:

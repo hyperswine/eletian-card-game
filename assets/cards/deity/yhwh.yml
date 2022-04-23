@@ -1,0 +1,41 @@
+# FORMAT:
+#
+# level
+# attack
+# defense
+
+# SUB EFFECT:
+#
+# heal
+# destroy
+# summon
+# draw
+# increase att/def
+# move again
+# att again
+# effect again 
+
+level: 10
+
+att: 10
+
+def: 10
+
+effect:
+  on_summon:
+    heal:
+      target: "ally unit"
+      number: "all"
+  # sacrifice an ally unit to + 100% stats
+  # NOTE: lists mean each effect is independent
+  # no list with a 'then' and indented means destroy -> gain stat. Kind of like a sub-sub effect and so on
+  every_turn:
+    destroy:
+        target: "ally unit"
+        number: 1
+        then:
+          boost:
+            target: "self"
+            att: "100%"
+            def: "100%"
+    

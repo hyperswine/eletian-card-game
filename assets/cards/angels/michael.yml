@@ -1,0 +1,17 @@
+# FORMAT:
+#
+# level
+# attack
+# defense
+
+level: 9
+
+att: 8
+
+def: 5
+
+effect:
+  every_turn:
+    destroy:
+      target: "enemy unit"
+      number: 1

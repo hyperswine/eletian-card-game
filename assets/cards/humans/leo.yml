@@ -1,0 +1,21 @@
+# FORMAT:
+#
+# level
+# attack
+# defense
+
+level: 7
+
+att: 1
+
+def: 1
+
+# An inventor and painter
+effect:
+  on_summon:
+    # can summon up to 2 units from your hand of any level
+    summon:
+      target: "ally unit"
+      place: "hand"
+      number: 2
+      max_level: 10

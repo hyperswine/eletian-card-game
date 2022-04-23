@@ -1,0 +1,22 @@
+# FORMAT:
+#
+# level
+# attack
+# defense
+
+level: 8
+
+att: 5
+
+def: 10
+
+effect:
+  once:
+    destroy:
+      target: "enemy unit"
+      number: 1
+  every_turn:
+    heal:
+      target: "ally unit"
+      number: 1
+      value: "50%"

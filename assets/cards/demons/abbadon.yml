@@ -1,0 +1,35 @@
+# FORMAT:
+#
+# level
+# attack
+# defense
+
+# SUB EFFECT:
+#
+# heal
+# destroy
+# summon
+# draw
+# increase att/def
+# move again
+# att again
+# effect again
+
+# Abbadon is a win cond for greedy playstyles
+# keep drawing and killing the enemy
+# while in DEF
+
+level: 9
+
+att: 1
+
+def: 9
+
+effect:
+  every_turn:
+    - destroy:
+        target: "enemy unit"
+        number: 2
+    - draw:
+        target: "self"
+        number: 2
